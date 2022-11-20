@@ -3,7 +3,7 @@ package HomeWork;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Random {
+public class Randomm {
 
     public static Set<Integer> numbers = new HashSet<>();
     public static void addRan() {
