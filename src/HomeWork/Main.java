@@ -20,8 +20,14 @@ public class Main {
 
 
         Recipe.addRecipe(product);
+        Recipe.addRecipe(product, product.getCount());
         Recipe.addRecipe(product1);
         System.out.println(Recipe.getProducts());
+
+        System.out.println(Recipe.salary(product));
+        Recipe.salary(product1);
+        Recipe.salary(product2);
+
 
         Set<Integer> numbers = new HashSet<>();
             for (int i = 0; i < 20; i++) {

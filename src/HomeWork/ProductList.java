@@ -27,6 +27,8 @@ public class ProductList {
         }
     }
 
+
+
     public static void remove(String remove) {
         for (Product product : productList) {
             if (product.getName().equals(remove)) productList.remove(product);
